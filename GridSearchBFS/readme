@@ -1,0 +1,9 @@
+This gridsearch BFS takes a NxM matrix, each element of consisting of 1 of 4 values:
+1 - house
+2 - street
+3- bus stop
+4- wall
+
+The algorithm creates a bus stop class, which inherits a house class which then also inherits a point class
+The algorithm then iterates through the grid using BFS to find the closest bus stop to each corresponding house,
+while not going through other houses or walls. 
